@@ -12,6 +12,7 @@ const nextConfig = {
       },
     ],
   },
+  output: "export",
   experimental: {
     externalDir: true,
     serverActions: true,
