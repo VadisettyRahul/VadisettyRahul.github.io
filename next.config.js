@@ -13,6 +13,7 @@ const nextConfig = {
     ],
   },
   output: "export",
+  distDir:"dist",
   experimental: {
     externalDir: true,
     serverActions: true,
