@@ -16,7 +16,7 @@ const nextConfig = {
   distDir:"dist",
   experimental: {
     externalDir: true,
-    serverActions: true,
+    serverActions: false,
   },
 };
 
