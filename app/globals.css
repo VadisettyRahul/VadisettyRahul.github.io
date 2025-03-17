@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "segoeuithisi", sans-serif;
+}
+
+::selection {
+  background-color: #eca92d;
+  color: #ffffff;
+}
+
+::webkit-selection {
+  background-color: #eca92d;
+  color: #ffffff;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.borderBlack {
+  @apply border border-black/10;
+}
