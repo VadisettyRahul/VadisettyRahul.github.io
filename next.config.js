@@ -13,6 +13,7 @@ const nextConfig = {
     ],
   },
   experimental: {
+    externalDir: true,
     serverActions: true,
   },
 };
