@@ -1,32 +1,10 @@
 "use client";
 import MainTitle from "@/common/mainTitle";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { keyNoteData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { FaKey } from "react-icons/fa";
-
-const keyNoteData = [
-  {
-    image: "/ny-black.webp",
-    conferenceName: "IEEE CN Smart Cities Austin Texas USA",
-    publisher: "IEEE",
-    shortName: "IEEE CN Smart Cities Austin Texas USA",
-    date: "2024",
-    link: "https://events.vtools.ieee.org/m/430011/",
-    mediaLink:
-      "https://nyweekly.com/tech/rahul-vadisetty-and-anand-polamarasetti-smart-city-development",
-  },
-  {
-    image: "/esp.png",
-    conferenceName: "ICICCS- 2024",
-    publisher: "Eternal Scientific Publication",
-    shortName: "Eternal Scientific Publication",
-    date: "2024",
-    link: "https://www.espjournals.org/",
-    mediaLink:
-      "https://www.espjournals.org/International_Conference_ICICCS.php",
-  },
-];
 
 export default function KeyNoteSpeaker() {
   const { sectionRefs } = useActiveSectionContext();

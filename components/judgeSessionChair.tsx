@@ -3,24 +3,7 @@ import React, { useState } from "react";
 import MainTitle from "@/common/mainTitle";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { useActiveSectionContext } from "@/context/active-section-context";
-
-const conferenceData = [
-  {
-    conferenceName:
-      "INTERNATIONAL CONFERENCE ON ADVANCED DATA ANALYTICS AND COMPUTING",
-    conferenceSortName: "ICADAC 2025",
-    event: "ICADAC 2025",
-    date: "2025",
-    role: "Conference Session Chair",
-  },
-  {
-    conferenceName: "HUMANIZE AI TEXT",
-    conferenceSortName: "HACKATHON 2024",
-    event: "HACKATHON 2024",
-    date: "2024",
-    role: "HACKATHON JUDGE",
-  },
-];
+import { judgeSessionChair } from "@/lib/data";
 
 export default function JudgeSessionChair() {
   const { sectionRefs } = useActiveSectionContext();
@@ -30,7 +13,7 @@ export default function JudgeSessionChair() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const sortedConferenceData = [...conferenceData].sort(
+  const sortedConferenceData = [...judgeSessionChair].sort(
     (a, b) => parseInt(b.date) - parseInt(a.date)
   );
 

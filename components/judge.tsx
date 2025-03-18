@@ -4,81 +4,7 @@ import ConferenceCard from "@/common/conferenceCard";
 import MainTitle from "@/common/mainTitle";
 import { FaMicrophoneAlt } from "react-icons/fa";
 import { useActiveSectionContext } from "@/context/active-section-context";
-
-const conferenceData = [
-  {
-    conferenceName: "Internet Technology Letters",
-    topicName:
-      "Artificial Intelligence Technique for Cyber-Attack Prevention in Edge Computing Networks ",
-    conferenceSortName: "Internet Technology Letters",
-    event: "Internet Technology Letters",
-    date: "Feb 27, 2025",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "Internet Technology Letters",
-    topicName:
-      "Dynamic Transmission Time Allocation Using Sigmoid Function for Energy Optimization in WSNs ",
-    conferenceSortName: "Internet Technology Letters",
-    event: "Internet Technology Letters",
-    date: "Feb 27, 2025",
-    // date: "Feb 27, 2025 | Dec 29, 2024",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "Internet Technology Letters",
-    topicName:
-      "MAVEN: Majority Voting Ensemble for Attack Detection on IoT Data Streams",
-    conferenceSortName: "Internet Technology Letters",
-    event: "Internet Technology Letters",
-    date: "Feb 2, 2025",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "IEEE Transactions on Network and Service Management",
-    topicName:
-      "GT4MAGR: Leveraging Graph Transformer and Multi-Agent Deep Reinforcement Learning for Robust Routing in Software Defined Networks",
-    conferenceSortName: "IEEE Transactions on Network and Service Management",
-    event: "IEEE Transactions on Network and Service Management",
-    date: "Jan 9, 2025",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "IEEE Transactions on Big Data",
-    topicName:
-      "Traffic Flow Forecasting Based on Complex Gray Relational Degree Network and Multi-Period Exattention-GRU Model",
-    conferenceSortName: "IEEE Transactions on Big Data",
-    event: "IEEE Transactions on Big Data",
-    date: "Jan 8, 2025",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "IEEE Transactions on Big Data",
-    topicName: "Sentences based Adversarial Attack on Generated Text Detectors",
-    conferenceSortName: "IEEE Transactions on Big Data",
-    event: "IEEE Transactions on Big Data",
-    date: "Jan 8, 2025",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "IEEE Transactions on Network and Service Management",
-    topicName:
-      "An Adaptive Contention Window Backoff Scheme Differentiating Network Conditions Based on Deep Q-Learning Network",
-    conferenceSortName: "IEEE Transactions on Network and Service Management",
-    event: "IEEE Transactions on Network and Service Management",
-    date: "Nov 11, 2024",
-    role: "Journal Peer Review",
-  },
-  {
-    conferenceName: "IEEE Transactions on Network and Service Management",
-    topicName:
-      "A General Approach for Network Video Traffic Classification Using Improved Deep Learning",
-    conferenceSortName: "IEEE Transactions on Network and Service Management",
-    event: "IEEE Transactions on Network and Service Management",
-    date: "Nov 11, 2024",
-    role: "Journal Peer Review",
-  },
-];
+import { judgeData } from "@/lib/data";
 
 export default function Judge() {
   const { sectionRefs } = useActiveSectionContext();
@@ -87,7 +13,7 @@ export default function Judge() {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const sortedArticles = [...conferenceData].sort((a, b) => {
+  const sortedArticles = [...judgeData].sort((a, b) => {
     const [monthA, dayA, yearA] = parseDate(a.date);
     const [monthB, dayB, yearB] = parseDate(b.date);
 
