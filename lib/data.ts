@@ -348,7 +348,7 @@ export const awards = [
     image: "/iaia-big.png",
     conferenceName: "IAIA Award",
     awardName: "IAIA AI Award",
-    date: "December 20-22, 2024",
+    date: "2023",
     publisher: "Taylor and Francis",
     link: "https://www.iaiawards.com/",
     mediaLink: "https://www.iaiawards.com/team-1/rahul-vadisetty/",
