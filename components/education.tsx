@@ -17,7 +17,7 @@ const Education = () => {
       >
         <MainTitle heading={{ title: "Education", icon: FaUserGraduate }} />
         {education.map((item, index) => (
-          <div className="flex gap-5 mt-12">
+          <div className="flex gap-5 mt-12" key={index}>
             <Image
               src={item.logo}
               alt={"Wayne State University"}
