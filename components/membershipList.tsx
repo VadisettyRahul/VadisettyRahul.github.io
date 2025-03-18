@@ -32,7 +32,9 @@ export default function MembershipList() {
                 </div>
               </Link>
               <div className="ml-4 text-[#212529] dark:text-white">
-                <span className="dark:text-white text-[#212529]text-xl">{membership.title}</span>
+                <span className="dark:text-white text-[#212529] text-2xl">
+                  {membership.title}
+                </span>
                 <Link href={membership?.link} target="_blank">
                   <p className="text-yellow-400 text-yellow mt-2 text-lg">
                     {membership.role}
