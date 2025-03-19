@@ -57,7 +57,7 @@ export default function ContactForm() {
             </div>
 
             {/* Right Section: Contact Form */}
-            <div className="rounded-lg  ">
+            {/* <div className="rounded-lg  ">
               <form className="space-y-4">
                 <div>
                   <label className="block dark:text-white text-[#212529]">
@@ -103,7 +103,7 @@ export default function ContactForm() {
                   Send Message
                 </button>
               </form>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

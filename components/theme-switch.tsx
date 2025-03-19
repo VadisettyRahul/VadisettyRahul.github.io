@@ -9,7 +9,7 @@ export default function ThemeSwitch() {
   const [bgColor, setBgColor] = useState("bg-[#eca92d]");
 
   useEffect(() => {
-    setBgColor(theme === "dark" ? "bg-[#eca92d]" : "bg-[#212529]");
+    setBgColor(theme === "dark" ? "bg-[#eca92d]" : "bg-[#eca92d]");
   }, [theme]);
 
   return (

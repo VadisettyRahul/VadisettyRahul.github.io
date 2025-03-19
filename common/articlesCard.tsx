@@ -13,7 +13,7 @@ const ArticleCard = ({
   return (
     <div className="flex flex-col lg:flex-row text-white rounded-lg mt-12 ">
       <div className="lg:w-1/2 flex flex-col lg:pl-12">
-        <h3 className="text-xl font-bold mb-2 leading-8 dark:text-yellow text-yellow font-larken">
+        <h3 className="text-xl font-bold mb-2 leading-8 dark:text-white text-[#212529] font-larken">
           {conferenceName}
         </h3>
         <p className="font-semibold dark:text-yellow text-[#212529] mt-4">

@@ -23,7 +23,7 @@ const parseDate = (dateString: string): [number, number, number] => {
   };
 
   const month = months[monthName] || 0;
-  const day = parseInt(dayRange.split("-")[0], 10) || 1;
+  const day = dayRange ? parseInt(dayRange.split("-")[0], 10) : 1;
   return [month, day, parseInt(year, 10)];
 };
 
