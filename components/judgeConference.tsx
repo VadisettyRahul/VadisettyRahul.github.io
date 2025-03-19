@@ -7,14 +7,18 @@ import { judgeConference } from "@/lib/data";
 
 export default function JudgeConference() {
   const { sectionRefs } = useActiveSectionContext();
-
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [selectedYear, setSelectedYear] = useState<string | null>(null);
 
   const toggleAccordion = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const sortedConferenceData = [...judgeConference].sort(
+  const filteredData = selectedYear
+    ? judgeConference.filter((conf) => conf.date.includes(selectedYear))
+    : judgeConference;
+
+  const sortedConferenceData = [...filteredData].sort(
     (a, b) => parseInt(b.date) - parseInt(a.date)
   );
 
@@ -28,6 +32,41 @@ export default function JudgeConference() {
         <MainTitle
           heading={{ title: "JUDGE (Conferences)", icon: FaMicrophoneAlt }}
         />
+        <div className="mt-10 text-center flex justify-end items-center gap-2">
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === null
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear(null)}
+          >
+            All
+          </button>
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === "2024"
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear("2024")}
+          >
+            2024
+          </button>
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === "2025"
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear("2025")}
+          >
+            2025
+          </button>
+        </div>
         <div className="mt-12">
           {sortedConferenceData.map((conf, index) => (
             <div

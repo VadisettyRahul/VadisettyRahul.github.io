@@ -9,22 +9,15 @@ import { judgeData } from "@/lib/data";
 export default function Judge() {
   const { sectionRefs } = useActiveSectionContext();
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [selectedYear, setSelectedYear] = useState<string | null>(null);
+
   const toggleAccordion = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  const sortedArticles = [...judgeData].sort((a, b) => {
-    const [monthA, dayA, yearA] = parseDate(a.date);
-    const [monthB, dayB, yearB] = parseDate(b.date);
-
-    if (yearA !== yearB) return yearB - yearA;
-    if (monthA !== monthB) return monthB - monthA;
-    return dayB - dayA;
-  });
-
-  function parseDate(dateString: any) {
+  function parseDate(dateString: string) {
     const [monthName, dayRange, year] = dateString.split(/[\s,]+/);
-    const months: any = {
+    const months: Record<string, number> = {
       January: 1,
       February: 2,
       March: 3,
@@ -43,6 +36,19 @@ export default function Judge() {
     return [months[monthName], day, parseInt(year, 10)];
   }
 
+  const filteredData = selectedYear
+    ? judgeData.filter((item) => item.date.includes(selectedYear))
+    : judgeData;
+
+  const sortedArticles = [...filteredData].sort((a, b) => {
+    const [monthA, dayA, yearA] = parseDate(a.date);
+    const [monthB, dayB, yearB] = parseDate(b.date);
+
+    if (yearA !== yearB) return yearB - yearA;
+    if (monthA !== monthB) return monthB - monthA;
+    return dayB - dayA;
+  });
+
   return (
     <>
       <div
@@ -53,6 +59,41 @@ export default function Judge() {
         <MainTitle
           heading={{ title: "Judge (Journals)", icon: FaMicrophoneAlt }}
         />
+        <div className="mt-10 text-center flex justify-end items-center gap-2">
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === null
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear(null)}
+          >
+            All
+          </button>
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === "2024"
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear("2024")}
+          >
+            2024
+          </button>
+          <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === "2025"
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear("2025")}
+          >
+            2025
+          </button>
+        </div>
         <div className="mt-12">
           {sortedArticles.map((conf, index) => (
             <ConferenceCard
