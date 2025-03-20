@@ -18,13 +18,14 @@ const Education = () => {
         <MainTitle heading={{ title: "Education", icon: FaUserGraduate }} />
         {education.map((item, index) => (
           <div className="flex gap-5 mt-12" key={index}>
-            <Image
+            {/* <Image
               src={item.logo}
               alt={"Wayne State University"}
               width={50}
               height={50}
               className=""
-            />
+            /> */}
+            <div className="bg-yellow w-11 h-11 rounded-md"></div>
             <div className="">
               <p className="text-lg dark:text-white text-[#212529] font-semibold font-larken">
                 {item.degree}

@@ -66,6 +66,17 @@ export const articles = [
       "https://www.thehansindia.com/business/rahul-vadisetty-harnessing-ai-to-revolutionize-predictive-healthcare-932304",
   },
   {
+    image: "/london insider.png",
+    conferenceName:
+      "International Institute of Computer Science Professional Association (IICSPA)",
+    shortName: "IICSPA 2024",
+    publisher: "IICSPA",
+    date: "September 13, 2024",
+    link: "http://iicspa.org",
+    mediaLink:
+      "https://londoninsider.co.uk/iicspa-announces-fourteen-fellows-for-2024/",
+  },
+  {
     image: "/logon24.webp",
     conferenceName:
       "7th International Conference on Data Analytics and Cyber Security (DACS 2024)",
@@ -130,7 +141,15 @@ export const memberships = [
     icon: FaUsersLine,
     link: "https://www.iicspa.org/",
   },
+
+  {
+    title: "ADROID CMS",
+    role: "AI Advisory Board",
+    icon: FaUsersGear,
+    link: "https://www.adroidcms.com/advisory-board/",
+  },
 ];
+
 
 export const experiences = [
   {
@@ -336,8 +355,7 @@ export const awards = [
   },
   {
     image: "/best_paper.jpg",
-    conferenceName:
-      "International Conference On ICTBIG (IEEE Computer Society Chapter & IEEE Madhya Pradesh Section.)",
+    conferenceName: "ICTBIG 2024",
     awardName: "Best Paper Award",
     date: "December 12-14, 2024",
     link: "https://indore.hosting.acm.org/ictbig2024/index.htm",
@@ -345,8 +363,19 @@ export const awards = [
       "https://www.freepressjournal.in/latest-news/revolutionizing-cloud-data-sharing-rahul-vadisetty-and-anand-polamarasetti-wins-best-paper-award-at-ieee-ictbig-2024-conference/",
   },
   {
+    image: "/claroawards_logo.jpeg",
+    conferenceName: "Silver Awards AI",
+    awardName:
+      "Innovation and excellence in the field of Artificial Intelligence",
+    date: "Nov 20, 2024",
+    publisher: "Claro Awards",
+    link: "https://claroawards.com/winners.html",
+    mediaLink:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7265065643052355584/",
+  },
+  {
     image: "/iaia-big.png",
-    conferenceName: "IAIA Award",
+    conferenceName: "IAIA AI Award",
     awardName: "IAIA AI Award",
     date: "2023",
     publisher: "Taylor and Francis",
@@ -370,10 +399,14 @@ export const patents = [
     year: "2024",
     items: [
       {
-        name: "AI BASED DEVICE FOR DATA SECURITY",
+        name: "Application Number : 6377598 - AI BASED DEVICE FOR DATA SECURITY ",
       },
       {
-        name: "AI BASED CRYPTOCURRENCY ANALYSING DEVICE",
+        name: "Application Number : 6377599 - AI BASED CRYPTOCURRENCY ANALYSING DEVICE",
+      },
+      { name: "Application Number : 6395994 - AI based Intrusion Alert device" },
+      {
+        name: "Application Number : 6402619 - AI based comprehensive data encryption and decryption device",
       },
     ],
   },
@@ -382,9 +415,9 @@ export const patents = [
     year: "2024",
     items: [
       {
-        name: "ARTIFICIAL INTELLIGENCE (AI) BASED CLOUD SECURITY DETECTING DEVICE",
+        name: "Application Number : 422830-001 - ARTIFICIAL INTELLIGENCE (AI) BASED CLOUD SECURITY DETECTING DEVICE",
       },
-      { name: "AI BASED CYBER SECURITY DATA ANALYTIC DEVICE" },
+      { name: "Application Number : 422832-001 - AI BASED CYBER SECURITY DATA ANALYTIC DEVICE" },
     ],
   },
   {
@@ -393,16 +426,6 @@ export const patents = [
     items: [
       { name: "AI-DRIVEN NETWORK OPTIMIZATION FOR 6G WIRELESS SYSTEMS" },
       { name: "REAL-TIME CYBER ATTACK MITIGATION USING ML ALGORITHMS" },
-    ],
-  },
-  {
-    category: "UK Patent",
-    year: "2024",
-    items: [
-      { name: "AI based Intrusion Alert device" },
-      {
-        name: "AI based comprehensive data encryption and decryption device",
-      },
     ],
   },
 ];
@@ -693,8 +716,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Survey on Information Security and Quantum Cryptography",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -703,8 +726,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Integrating Al for Enhanced Battery Lifespan and Efficiency in Electric Vehicles",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -713,8 +736,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "The Role of Artificial Intelligence and Machine Learning in Autonomous Vehicle Diagnostics and Control",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -723,8 +746,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Data Science and Regulatory Affairs: Navigating the Complex Landscape of Drug Approval Processes",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -733,8 +756,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Smart Semiconductor Wafer Inspection Systems Integrating Al for Increased Efficiency",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -743,8 +766,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Global Parts Management through Data and AI Leveraging Structured and Unstructured Data",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -753,8 +776,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Jenkins-The Leading Automation Server for Continuous Integration and Continuous Delivery",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -762,8 +785,8 @@ export const judgeConference = [
     conferenceName:
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName: "Simulation of Obstacle Avoidance Robots",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -772,8 +795,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "The Future of Al in Big Data: Cloud Platforms are Evolving to Support Machine Learning and Analytics",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -782,8 +805,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Real-Time Adaptation: Change Data Capture in Modern Computer Architecture",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -792,8 +815,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "YOL-SFV2: An Effective Deep Learning Technique to Detect and Classify the Human Face Action in Thermal Images",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -802,8 +825,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Securing the Edge: A Comprehensive Review of Adaptive Video Streaming Security Mechanisms in Decentralized Environments",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -812,8 +835,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Al-Driven Business Intelligence: Unlocking the Future of Decision-Making",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -822,8 +845,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "A Systematic Review of Artificial Intelligence and Cyber Security in Higher Education Space",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
@@ -832,8 +855,8 @@ export const judgeConference = [
       "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
     conferenceTopicName:
       "Building Robust Al Systems in Finance: The Indispensable Role of Data Engineering and Data Quality",
-    conferenceSortName: "ESP-JETA 2024",
-    event: "ESP-JETA 2024",
+    conferenceSortName: "ICICCS-2024",
+    event: "ICICCS-2024",
     date: "2024",
     role: "Conference Peer Review",
   },
