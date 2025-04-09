@@ -338,11 +338,11 @@ export const awards = [
   {
     conferenceName: "IDEATHON 2025",
     awardName: "Best Presentation Award",
-    image: "/ideathon.png",
+    image: "/ideathon.png.jpeg",
     date: "March 28-29,2025",
     publisher: "FIU",
-    link: "https://scrs.in/conference/ideathon2025/page/Awards",
-    mediaLink: "",
+    link: "https://scrs.in/conference/ideathon2025/page/Awards/",
+    mediaLink: "https://scrs.in/conference/ideathon2025/page/Awards/",
   },
   {
     conferenceName: "ICISAS 2025",
