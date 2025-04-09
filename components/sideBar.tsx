@@ -208,6 +208,18 @@ const Sidebar = () => {
                     JUDGE (Conferences)
                   </div>
                 </li>
+                <li onClick={() => handleMenuClick("JUDGE (Book Chap)")}>
+                  <div
+                    className={`p-2 flex items-center cursor-pointer rounded-md gap-2 text-[13px] hover:bg-white border hover:border-black border-transparent dark:hover:border-yellow dark:hover:text-yellow dark:hover:bg-[#343A40] hover:rounded-md transition duration-300 ${
+                      activeSection === "JUDGE (Book Chap)"
+                        ? "dark:border-yellow dark:text-yellow dark:bg-[#343A40] rounded-md bg-white border-slate-950 border-black"
+                        : ""
+                    }`}
+                  >
+                    {/* <FaMicrophoneAlt className="w-4 h-4" /> */}
+                    JUDGE (Book Chapters)
+                  </div>
+                </li>
                 <li onClick={() => handleMenuClick("JUDGE (Session Chair)")}>
                   <div
                     className={`p-2 flex items-center cursor-pointer rounded-md gap-2 text-[13px] hover:bg-white border hover:border-black border-transparent dark:hover:border-yellow dark:hover:text-yellow dark:hover:bg-[#343A40] hover:rounded-md transition duration-300 ${

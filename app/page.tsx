@@ -8,6 +8,7 @@ import Education from "@/components/education";
 import ExperienceTimeline from "@/components/experience";
 import GoogleScholar from "@/components/googleScholar";
 import Judge from "@/components/judge";
+import JudgeBookChap from "@/components/JudgeBookChap";
 import JudgeConference from "@/components/judgeConference";
 import JudgeGithub from "@/components/judgeGithub";
 import JudgeSessionChair from "@/components/judgeSessionChair";
@@ -30,6 +31,7 @@ export default function Home() {
       <Judge />
       <JudgeConference />
       <JudgeSessionChair />
+      <JudgeBookChap />
       <JudgeGithub />
       <Patents />
       <Book />

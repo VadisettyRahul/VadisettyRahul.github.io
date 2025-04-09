@@ -336,6 +336,15 @@ export const certifications = [
 
 export const awards = [
   {
+    conferenceName: "IDEATHON 2025",
+    awardName: "Best Presentation Award",
+    image: "/ideathon.png",
+    date: "March 28-29,2025",
+    publisher: "FIU",
+    link: "https://scrs.in/conference/ideathon2025/page/Awards",
+    mediaLink: "",
+  },
+  {
     conferenceName: "ICISAS 2025",
     awardName: "Best Presentation Award",
     image: "/best_ppt.jpg",
@@ -498,6 +507,42 @@ export const books = [
 ];
 
 export const judgeData = [
+  {
+    conferenceName: "ACM Transactions on Multimedia Computing, Communications and Applications",
+    topicName:
+      "Tensor Multi-feature Fusion for Anomaly Detection in Internet of Multimedia Things",
+    conferenceSortName: "ACM Transactions on Multimedia Computing, Communications and Applications",
+    event: "ACM Transactions on Multimedia Computing, Communications and Applications",
+    date: "Apr 2, 2025",
+    role: "Journal Peer Review",
+  },
+  {
+    conferenceName: "IEEE Transactions on Network and Service Management",
+    topicName:
+      "Slicing for AI: An Online Learning Framework for Network Slicing Supporting AI Services ",
+    conferenceSortName: "IEEE Transactions on Network and Service Management",
+    event: "IEEE Transactions on Network and Service Management",
+    date: "Mar 30, 2025",
+    role: "Journal Peer Review",
+  },
+  {
+    conferenceName: "IEEE Transactions on Network and Service Management",
+    topicName:
+      "Classifying Internet of Health Things Cyberattacks using Ensemble Learning Based Directed Acyclic Graph Structured Time Series Framework: A Comparative Study",
+    conferenceSortName: "IEEE Transactions on Network and Service Management",
+    event: "IEEE Transactions on Network and Service Management",
+    date: "Mar 30, 2025",
+    role: "Journal Peer Review",
+  },
+  {
+    conferenceName: "IEEE Transactions on Network and Service Management",
+    topicName:
+      "An Incentive Mechanism for Vehicular Crowdsourcing Services Based on Deep Reinforcement Learning ",
+    conferenceSortName: "IEEE Transactions on Network and Service Management",
+    event: "IEEE Transactions on Network and Service Management",
+    date: "Mar 30, 2025",
+    role: "Journal Peer Review",
+  },
   {
     conferenceName: "Internet Technology Letters",
     topicName:
@@ -913,6 +958,17 @@ export const judgeSessionChair = [
     event: "HACKATHON 2024",
     date: "2024",
     role: "HACKATHON JUDGE",
+  },
+];
+export const judgeBookChap = [
+  {
+    publisherName: "IGI Global",
+    bookTopicName:
+      "Metaheuristic Algorithms and Optimizing Neural Networks for Biomedical Image Processing",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "2025",
+    role: "Book Chapter Peer Review",
   },
 ];
 
