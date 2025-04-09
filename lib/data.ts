@@ -112,22 +112,16 @@ export const articles = [
 
 export const memberships = [
   {
+    title: "IPMA Fellow",
+    role: "IPMA Fellow Membership.",
+    icon: FaUsersLine,
+    link: "https://www.ipma-usa.org/",
+  },
+  {
     title: "Soft Computing",
     role: "Distinguished Fellow Membership of the Soft Computing.",
     icon: FaUsers,
     link: "https://scrs.in/",
-  },
-  {
-    title: "Institute of Electrical and Electronics Engineers",
-    role: "Senior Professional Membership.",
-    icon: LuUsers,
-    link: "https://www.ieee.org/",
-  },
-  {
-    title: "Raptors Fellowship",
-    role: "Raptors Fellowship Membership.",
-    icon: FaUsersGear,
-    link: "https://www.raptors.dev/",
   },
   {
     title: "Soft computing",
@@ -136,20 +130,48 @@ export const memberships = [
     link: "https://scrs.in/",
   },
   {
+    title: "Raptors Fellowship",
+    role: "Raptors Fellowship Membership.",
+    icon: FaUsersGear,
+    link: "https://www.raptors.dev/",
+  },
+  {
     title: "IICSPA",
     role: "Sr fellow membership IICSPA.",
     icon: FaUsersLine,
     link: "https://www.iicspa.org/",
   },
-
+  {
+    title: "Institute of Electrical and Electronics Engineers",
+    role: "Senior Professional Membership.",
+    icon: LuUsers,
+    link: "https://www.ieee.org/",
+  },
+  {
+    title: "ACM Professional Membership",
+    role: "Professional Membership.",
+    icon: FaUsersLine,
+    link: "https://www.acm.org/",
+  },
   {
     title: "ADROID CMS",
     role: "AI Advisory Board",
     icon: FaUsersGear,
     link: "https://www.adroidcms.com/advisory-board/",
   },
+  {
+    title: "Leader Excellence",
+    role: "Leader Excellence Member",
+    icon: FaUsersGear,
+    link: "https://leadersexcellence.com/",
+  },
+  {
+    title: "Internet Society Washington DC Chapter",
+    role: "Internet Society Washington DC Chapter Member",
+    icon: FaUsersGear,
+    link: "https://isoc-dc.org/",
+  },
 ];
-
 
 export const experiences = [
   {
@@ -404,7 +426,9 @@ export const patents = [
       {
         name: "Application Number : 6377599 - AI BASED CRYPTOCURRENCY ANALYSING DEVICE",
       },
-      { name: "Application Number : 6395994 - AI based Intrusion Alert device" },
+      {
+        name: "Application Number : 6395994 - AI based Intrusion Alert device",
+      },
       {
         name: "Application Number : 6402619 - AI based comprehensive data encryption and decryption device",
       },
@@ -417,7 +441,9 @@ export const patents = [
       {
         name: "Application Number : 422830-001 - ARTIFICIAL INTELLIGENCE (AI) BASED CLOUD SECURITY DETECTING DEVICE",
       },
-      { name: "Application Number : 422832-001 - AI BASED CYBER SECURITY DATA ANALYTIC DEVICE" },
+      {
+        name: "Application Number : 422832-001 - AI BASED CYBER SECURITY DATA ANALYTIC DEVICE",
+      },
     ],
   },
   {
