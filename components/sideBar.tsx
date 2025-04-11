@@ -216,7 +216,6 @@ const Sidebar = () => {
                         : ""
                     }`}
                   >
-                    {/* <FaMicrophoneAlt className="w-4 h-4" /> */}
                     JUDGE (Book Chapters)
                   </div>
                 </li>
@@ -228,7 +227,6 @@ const Sidebar = () => {
                         : ""
                     }`}
                   >
-                    {/* <FaMicrophoneAlt className="w-4 h-4" /> */}
                     JUDGE (Session Chair)
                   </div>
                 </li>
@@ -240,7 +238,6 @@ const Sidebar = () => {
                         : ""
                     }`}
                   >
-                    {/* <FaMicrophoneAlt className="w-4 h-4" /> */}
                     JUDGE GITHUB OPEN SOURCE
                   </div>
                 </li>
@@ -282,6 +279,30 @@ const Sidebar = () => {
             >
               <FaKey className="w-5 h-5" />
               KEY NOTE SPEAKER
+            </div>
+          </li>
+          <li onClick={() => handleMenuClick("Workshop")}>
+            <div
+              className={`p-3.5 flex items-center cursor-pointer rounded-md gap-2 text-[13px] hover:bg-white border hover:border-black border-transparent dark:hover:border-yellow dark:hover:text-yellow dark:hover:bg-[#343A40] hover:rounded-md transition duration-300 ${
+                activeSection === "Workshop"
+                  ? "dark:border-yellow dark:text-yellow dark:bg-[#343A40] rounded-md bg-white border-slate-950 border-black"
+                  : ""
+              }`}
+            >
+              <FaKey className="w-5 h-5" />
+              Workshop
+            </div>
+          </li>
+          <li onClick={() => handleMenuClick("Patent_exhibition")}>
+            <div
+              className={`p-3.5 flex items-center cursor-pointer rounded-md gap-2 text-[13px] hover:bg-white border hover:border-black border-transparent dark:hover:border-yellow dark:hover:text-yellow dark:hover:bg-[#343A40] hover:rounded-md transition duration-300 ${
+                activeSection === "Patent_exhibition"
+                  ? "dark:border-yellow dark:text-yellow dark:bg-[#343A40] rounded-md bg-white border-slate-950 border-black"
+                  : ""
+              }`}
+            >
+              <FaKey className="w-5 h-5" />
+              Patent and Book exhibition
             </div>
           </li>
           <li onClick={() => handleMenuClick("KEYNOT")}>

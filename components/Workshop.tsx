@@ -2,7 +2,7 @@
 import MainTitle from "@/common/mainTitle";
 import Image from "next/image";
 import { BsAward } from "react-icons/bs";
-import { awards } from "@/lib/data";
+import { awards, workspaceList } from "@/lib/data";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 const parseDate = (dateString: string): [number, number, number] => {
@@ -27,10 +27,10 @@ const parseDate = (dateString: string): [number, number, number] => {
   return [month, day, parseInt(year, 10)];
 };
 
-export default function AwardList() {
+export default function WorkshopList() {
   const { sectionRefs } = useActiveSectionContext();
 
-  const sortedAwards = [...awards].sort((a, b) => {
+  const sortedAwards = [...workspaceList].sort((a, b) => {
     const [monthA, dayA, yearA] = parseDate(a.date);
     const [monthB, dayB, yearB] = parseDate(b.date);
 
@@ -42,10 +42,10 @@ export default function AwardList() {
   return (
     <section
       className="mx-auto mb-24 scroll-mt-10"
-      ref={(el) => (sectionRefs.current["AWARDS"] = el)}
-      id="awards"
+      ref={(el) => (sectionRefs.current["Workshop"] = el)}
+      id="Workshop"
     >
-      <MainTitle heading={{ title: "Awards", icon: BsAward }} />
+      <MainTitle heading={{ title: "Workshop", icon: BsAward }} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12 justify-center">
         {sortedAwards.map((award: any, index: number) => (
           <div key={index} className="flex flex-col items-center text-center justify-end">
@@ -68,16 +68,6 @@ export default function AwardList() {
             >
               {award.conferenceName}
             </h2>
-            <p
-              className="text-md text-gray-400 mt-1 cursor-pointer"
-              onClick={() => {
-                window.open(award?.mediaLink, "_blank", "noopener,noreferrer");
-              }}
-            >
-              <span className="font-medium">
-                {award.awardName} : {award.date}
-              </span>
-            </p>
           </div>
         ))}
       </div>

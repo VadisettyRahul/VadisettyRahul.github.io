@@ -337,12 +337,21 @@ export const certifications = [
 export const awards = [
   {
     conferenceName: "IDEATHON 2025",
-    awardName: "Best Presentation Award",
-    image: "/ideathon.png.jpeg",
+    awardName: "IDEATHON Winner",
+    image: "/ideathon.png",
     date: "March 28-29,2025",
     publisher: "FIU",
     link: "https://scrs.in/conference/ideathon2025/page/Awards/",
     mediaLink: "https://scrs.in/conference/ideathon2025/page/Awards/",
+  },
+  {
+    conferenceName: "ICADAC 2025",
+    awardName: "Best Paper Award",
+    image: "/best_paper.jpg",
+    date: "March 28-29,2025",
+    publisher: "FIU",
+    link: "https://icadac.in/",
+    mediaLink: "https://icadac.in/best-paper-list.php/",
   },
   {
     conferenceName: "ICISAS 2025",
@@ -413,6 +422,26 @@ export const awards = [
     link: "https://www.iaiawards.com/",
     mediaLink: "https://www.iaiawards.com/team-1/rahul-vadisetty/",
   },
+];
+export const workspaceList = [
+  {
+    conferenceName: "SecAI + Workshop",
+    image: "/CompTIA.png",
+    date: "May 12-16,2025",
+    publisher: "FIU",
+    link: "https://www.comptia.org/",
+    mediaLink: "https://www.comptia.org/",
+  },
+];
+export const patentExhibition = [
+  // {
+  //   conferenceName: "SecAI + Workshop",
+  //   image: "/CompTIA.png",
+  //   date: "May 12-16,2025",
+  //   publisher: "FIU",
+  //   link: "https://www.comptia.org/",
+  //   mediaLink: "https://www.comptia.org/",
+  // },
 ];
 
 export const patents = [
@@ -508,11 +537,14 @@ export const books = [
 
 export const judgeData = [
   {
-    conferenceName: "ACM Transactions on Multimedia Computing, Communications and Applications",
+    conferenceName:
+      "ACM Transactions on Multimedia Computing, Communications and Applications",
     topicName:
       "Tensor Multi-feature Fusion for Anomaly Detection in Internet of Multimedia Things",
-    conferenceSortName: "ACM Transactions on Multimedia Computing, Communications and Applications",
-    event: "ACM Transactions on Multimedia Computing, Communications and Applications",
+    conferenceSortName:
+      "ACM Transactions on Multimedia Computing, Communications and Applications",
+    event:
+      "ACM Transactions on Multimedia Computing, Communications and Applications",
     date: "Apr 2, 2025",
     role: "Journal Peer Review",
   },
@@ -967,7 +999,50 @@ export const judgeBookChap = [
       "Metaheuristic Algorithms and Optimizing Neural Networks for Biomedical Image Processing",
     conferenceSortName: "IGI Global 2025",
     event: "IGI Global",
-    date: "2025",
+    date: "9 April 2025",
+    role: "Book Chapter Peer Review",
+  },
+  {
+    publisherName: "IGI Global",
+    bookTopicName: "TRANSFORMERS FOR MEDICAL IMAGE SEGMENTATION",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "10 April 2025",
+    role: "Book Chapter Peer Review",
+  },
+  {
+    publisherName: "IGI Global",
+    bookTopicName:
+      "Deep Learning-Enhanced Hybrid Metaheuristic Fusion Model for Biomedical Image Analysis",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "9 April 2025",
+    role: "Book Chapter Peer Review",
+  },
+  {
+    publisherName: "IGI Global",
+    bookTopicName: "Metaheuristics in Deep Learning for 3D Medical Imaging",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "9 April 2025",
+    role: "Book Chapter Peer Review",
+  },
+  {
+    publisherName: "IGI Global",
+    bookTopicName:
+      "Transformers Technologies in Measuring Healthcare with Digital Technologies",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "9 April 2025",
+    role: "Book Chapter Peer Review",
+  },
+  {
+    publisherName: "IGI Global",
+    bookTopicName:
+      "Comparative Analysis of Simulated Annealing and Genetic Algorithm for Network Optimization",
+    conferenceSortName: "IGI Global 2025",
+    event: "IGI Global",
+    date: "3 April 2025",
     role: "Book Chapter Peer Review",
   },
 ];

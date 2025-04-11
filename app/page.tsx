@@ -15,7 +15,9 @@ import JudgeSessionChair from "@/components/judgeSessionChair";
 import KeyNoteSpeaker from "@/components/keyNoteSpeaker";
 import MembershipList from "@/components/membershipList";
 import MentorShip from "@/components/mentorShip";
+import PatentExhibition from "@/components/patentExhibition";
 import Patents from "@/components/patents";
+import WorkshopList from "@/components/Workshop";
 
 export default function Home() {
   return (
@@ -36,6 +38,8 @@ export default function Home() {
       <Patents />
       <Book />
       <KeyNoteSpeaker />
+      <WorkshopList />
+      <PatentExhibition />
       <MentorShip />
       <Contact />
     </main>
