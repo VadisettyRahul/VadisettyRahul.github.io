@@ -290,7 +290,7 @@ const Sidebar = () => {
               }`}
             >
               <FaKey className="w-5 h-5" />
-              Workshop
+              WORKSHOP
             </div>
           </li>
           <li onClick={() => handleMenuClick("Patent_exhibition")}>
@@ -302,7 +302,7 @@ const Sidebar = () => {
               }`}
             >
               <FaKey className="w-5 h-5" />
-              Patent and Book exhibition
+              PATENT AND BOOK EXHIBITION
             </div>
           </li>
           <li onClick={() => handleMenuClick("KEYNOT")}>
