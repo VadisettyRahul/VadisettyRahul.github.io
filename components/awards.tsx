@@ -39,6 +39,13 @@ export default function AwardList() {
     return dayB - dayA;
   });
 
+  const truncateWords = (text: string, limit: number): string => {
+    const words = text.split(" ");
+    return words.length > limit
+      ? words.slice(0, limit).join(" ") + "..."
+      : text;
+  };
+
   return (
     <section
       className="mx-auto mb-24 scroll-mt-10"
@@ -48,7 +55,10 @@ export default function AwardList() {
       <MainTitle heading={{ title: "Awards", icon: BsAward }} />
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12 justify-center">
         {sortedAwards.map((award: any, index: number) => (
-          <div key={index} className="flex flex-col items-center text-center justify-end">
+          <div
+            key={index}
+            className="flex flex-col items-center text-center justify-end"
+          >
             <Image
               src={award.image}
               alt={award.conferenceName}
@@ -75,7 +85,7 @@ export default function AwardList() {
               }}
             >
               <span className="font-medium">
-                {award.awardName} : {award.date}
+                {truncateWords(award.awardName, 5)} : {award.date}
               </span>
             </p>
           </div>
