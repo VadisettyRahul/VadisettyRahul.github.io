@@ -48,34 +48,29 @@ export default function PatentExhibition() {
       <MainTitle
         heading={{ title: "Patent and Book exhibition", icon: BsAward }}
       />
-      {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12 justify-center">
-        {sortedAwards.map((award: any, index: number) => (
+      <div className="mt-12 flex gap-4 flex-col">
+        {patentExhibition.map((items, index: number) => (
           <div
+            className="flex flex-col lg:flex-row text-white rounded-lg mt-12"
             key={index}
-            className="flex flex-col items-center text-center justify-end"
           >
-            <Image
-              src={award.image}
-              alt={award.conferenceName}
-              width={310}
-              height={113}
-              className="mx-auto bg-slate-50 cursor-pointer"
-              loading="lazy"
-              onClick={() => {
-                window.open(award?.mediaLink, "_blank", "noopener,noreferrer");
-              }}
-            />
-            <h2
-              className="text-xl font-semibold text-[#212529] dark:text-white mt-6 font-larken cursor-pointer"
-              onClick={() => {
-                window.open(award?.mediaLink, "_blank", "noopener,noreferrer");
-              }}
-            >
-              {award.conferenceName}
-            </h2>
+            <div className="lg:w-1/2 flex flex-col lg:pl-12">
+              <p className="font-semibold dark:text-yellow text-[#212529] mt-4">
+                <span className="text-gray-400">Exhibition Name:</span>{" "}
+                {items?.exhibitionName}
+              </p>
+              <p className="font-semibold dark:text-yellow text-[#212529]">
+                <span className="text-gray-400">Exhibition Link:</span>{" "}
+                {items?.exhibitionLink}
+              </p>
+              <p className="font-semibold dark:text-yellow text-[#212529]">
+                <span className="text-gray-400">Exhibition Date:</span>{" "}
+                {items?.eventDate}
+              </p>
+            </div>
           </div>
         ))}
-      </div> */}
+      </div>
       <hr className="mt-16 dark:bg-white bg-black dark:opacity-10" />
     </section>
   );
