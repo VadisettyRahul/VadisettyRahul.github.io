@@ -57,7 +57,7 @@ export default function AwardList() {
         {sortedAwards.map((award: any, index: number) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center justify-end"
+            className="flex flex-col items-center text-center justify-between"
           >
             <Image
               src={award.image}

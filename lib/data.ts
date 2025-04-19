@@ -32,6 +32,28 @@ export const education = [
 
 export const articles = [
   {
+    image: "/msn.svg",
+    conferenceName:
+      "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
+    shortName: "DoSCI 2025",
+    publisher: "Springer",
+    date: "28th-29th March 2025",
+    link: "https://conference.curtindubai.ac.ae/icisas-2025/",
+    mediaLink:
+      "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
+  },
+  {
+    image: "/DNA.svg",
+    conferenceName:
+      "International Conference on Advanced Data Analytics and Computing (ICADAC) 2025",
+    shortName: "ICADAC 2025",
+    publisher: "Taylor and Francis",
+    date: "February 28 and March 1,2025",
+    link: "https://www.icadac.in/",
+    mediaLink:
+      "https://www.dnaindia.com/brand-desk/report-two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity-3146239",
+  },
+  {
     image: "/khaleej-times.svg",
     conferenceName:
       "The International Conference on Innovation, Sustainability, and Applied Sciences (ICISAS 2025)",
@@ -165,11 +187,42 @@ export const memberships = [
     icon: FaUsersGear,
     link: "https://leadersexcellence.com/",
   },
+
+  {
+    title: "Sigma Xi",
+    role: "Sigma Xi Lifetime Member",
+    icon: FaUsersLine,
+    link: "https://www.sigmaxi.org/",
+  },
+  {
+    title: "Scholarly Rank",
+    role: "AI Advisory Board Member",
+    icon: FaUsersLine,
+    link: "https://www.scholarrank.com/index.html",
+  },
   {
     title: "Internet Society Washington DC Chapter",
     role: "Internet Society Washington DC Chapter Member",
     icon: FaUsersGear,
     link: "https://isoc-dc.org/",
+  },
+  {
+    title: "Internet Society US San Francisco Bay Area Chapter",
+    role: "Internet Society US San Francisco Bay Area Chapter Member",
+    icon: FaUsersGear,
+    link: "https://www.sfbayisoc.org/",
+  },
+  {
+    title: "Internet Society US New York Chapter",
+    role: "Internet Society US New York Chapter Member",
+    icon: FaUsersGear,
+    link: "http://isoc-ny.org/",
+  },
+  {
+    title: "Internet Society India Chennai Chapter",
+    role: "Internet Society India Chennai Chapter Member",
+    icon: FaUsersGear,
+    link: "http://isocindiachennai.org/",
   },
 ];
 
@@ -336,6 +389,17 @@ export const certifications = [
 
 export const awards = [
   {
+    conferenceName:
+      "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
+    awardName: "Best Paper Award",
+    image: "/best_paper.jpg",
+    date: "28th-29th March 2025",
+    publisher: "Springer",
+    link: "https://www.dosci-conf.com/",
+    mediaLink:
+      "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
+  },
+  {
     conferenceName: "IDEATHON 2025",
     awardName: "IDEATHON Winner",
     image: "/ideathon.png",
@@ -348,10 +412,20 @@ export const awards = [
     conferenceName: "ICADAC 2025",
     awardName: "Best Paper Award",
     image: "/best_paper.jpg",
-    date: "March 28-29,2025",
-    publisher: "FIU",
-    link: "https://icadac.in/",
-    mediaLink: "https://icadac.in/best-paper-list.php/",
+    date: "February 28 and March 1,2025",
+    publisher: "Taylor and Francis",
+    link: "https://www.icadac.in/",
+    mediaLink:
+      "https://www.dnaindia.com/brand-desk/report-two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity-3146239",
+  },
+  {
+    conferenceName: "ICCSIS 2025",
+    awardName: "Best Paper Award",
+    image: "/best_paper.jpg",
+    date: "January 10-12,2025",
+    publisher: "Taylor and Francis",
+    link: "https://iccsis.com/",
+    mediaLink: "https://iccsis.com/",
   },
   {
     conferenceName: "ICISAS 2025",
@@ -433,15 +507,21 @@ export const workspaceList = [
     mediaLink: "https://www.comptia.org/",
   },
 ];
-export const patentExhibition = [
-  // {
-  //   conferenceName: "SecAI + Workshop",
-  //   image: "/CompTIA.png",
-  //   date: "May 12-16,2025",
-  //   publisher: "FIU",
-  //   link: "https://www.comptia.org/",
-  //   mediaLink: "https://www.comptia.org/",
-  // },
+export const patentExhibition: {
+  exhibitionName: string;
+  exhibitionLink: string;
+  eventDate: string;
+}[] = [
+  {
+    exhibitionName: "The Capital Rare Book Fair",
+    exhibitionLink: "https://finefairs.com/capital-rare-book-fair",
+    eventDate: "2-4 May 2025",
+  },
+  {
+    exhibitionName: "AI & CYBER SECURITY CONCLAVE 2025",
+    exhibitionLink: "https://www.agra.sharda.ac.in/aiconclave/index.php",
+    eventDate: "22-23 April 2025",
+  },
 ];
 
 export const patents = [
@@ -495,6 +575,11 @@ export const patents = [
 ];
 
 export const books = [
+  {
+    title: "Amazon Book",
+    publisher: "Amazon",
+    link: "https://www.amazon.com/dp/B0DSZQ95VF",
+  },
   {
     title: "Amazon Book",
     publisher: "Amazon",
@@ -960,6 +1045,144 @@ export const judgeConference = [
       "Building Robust Al Systems in Finance: The Indispensable Role of Data Engineering and Data Quality",
     conferenceSortName: "ICICCS-2024",
     event: "ICICCS-2024",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Application Development with Agile and Django-React Framework: A Case Study on Reliability Testing with Bus Ticketing System",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Unsteady Hydromagnetic Fluid Flow along an Inclined Plane with Heat and Mass Transfer under the Effect of Thermal Radiation",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Automated Behaviour Model Generation from Natural Language Requirements Specification",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName: "",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "MONITORING OF TRAFFIC USING UNMANNED AERIAL VEHICLE IN MALAYSIA LANDSCAPE PERSPECTIVE",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "TEST CASE SELECTION USING MUTATIONS ANALYSIS FOR TEST CASE EFFECTIVENESS",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Toward IoT Based Pollution Detection System for Indoor and Outdoor Environment",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "An Effective Method for Software Development Effort Estimation for Complex Project Management",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "An Effective Method for Software Development Effort Estimation for Complex Project Management",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Functional Requirements Management in Virtual Team Environment",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Content-Based Venue Recommender Approach for Publication",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName: "CMMI Software Evolution and Its Role in Pakistan",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "CVehicle Recognition using Multi-level DeepLearning Models",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
+    date: "2024",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+    conferenceTopicName:
+      "Big Data Analysis of Contagious Diseases Using AI-based Surveillance System",
+    conferenceSortName: "ICCSIS 2025",
+    event: "ICCSIS 2025",
     date: "2024",
     role: "Conference Peer Review",
   },
