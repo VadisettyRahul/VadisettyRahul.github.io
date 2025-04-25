@@ -281,7 +281,14 @@ export const certifications = [
     title: "Microsoft Azure Administrator Associate",
     altText: "Azure Admin Associate Badge",
     credentialLink:
-      "https://learn.microsoft.com/en-us/users/rv-9399/credentials/74dcff2cf7890115?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+      "https://learn.microsoft.com/en-us/users/rahulvadisetty/?tab=credentials-tab",
+  },
+  {
+    image: microsoft,
+    title: "Microsoft Azure AI Fundamentals",
+    altText: "Azure AI Fundamentals",
+    credentialLink:
+      "https://learn.microsoft.com/en-us/users/rahulvadisetty/?tab=credentials-tab",
   },
   {
     image: hashicorp,
@@ -309,6 +316,20 @@ export const certifications = [
     altText: "PMP Certification Badge",
     credentialLink:
       "https://www.credential.net/5d093618-ed0a-45fe-9907-cfb5977f80e0#gs.kqzvvy",
+  },
+  {
+    image: google,
+    title: "Professional Cloud Architect Certification",
+    altText: "Professional Cloud Architect Certification",
+    credentialLink:
+      "https://www.credly.com/badges/debc2a11-eeee-4ccc-9302-0d085357c914/public_url",
+  },
+  {
+    image: google,
+    title: "Professional Cloud Security Engineer Certification",
+    altText: "Professional Cloud Security Engineer Certification",
+    credentialLink:
+      "https://www.credly.com/badges/245aaa3d-38f5-4a48-bb31-75cdf29d991d/public_url",
   },
   // {
   //   image: microsoft,
@@ -362,28 +383,28 @@ export const certifications = [
     title: "Microsoft Certified: Azure Administrator Associate",
     altText: "PMP Certification Badge",
     credentialLink:
-      "https://learn.microsoft.com/api/credentials/share/en-us/rv-9399/A780917EE021C376?sharingId",
+      "https://learn.microsoft.com/en-us/users/rahulvadisetty/?tab=credentials-tab",
   },
   {
     image: microsoft,
     title: "Microsoft Certified: Azure Solutions Architect Expert",
     altText: "PMP Certification Badge",
     credentialLink:
-      "https://learn.microsoft.com/en-us/users/rv-9399/credentials/eb281105b56bcbd9?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+      "https://learn.microsoft.com/en-us/users/rahulvadisetty/?tab=credentials-tab",
   },
   {
     image: aws_logo,
     title: "AWS Certified Solutions Architect – Professional",
     altText: "PMP Certification Badge",
     credentialLink:
-      "https://www.credly.com/badges/56108816-5306-49cd-aaae-79dda3892c25?source=linked_in_profile",
+      "https://www.credly.com/badges/01aeef8c-3598-457d-8374-2d95393439ec/public_url",
   },
   {
     image: microsoft,
     title: "Microsoft Certified: Azure Security Engineer Associate",
     altText: "PMP Certification Badge",
     credentialLink:
-      "https://learn.microsoft.com/en-us/users/rv-9399/transcript/7kw30clw2n58429",
+      "https://learn.microsoft.com/en-us/users/rahulvadisetty/?tab=credentials-tab",
   },
 ];
 
