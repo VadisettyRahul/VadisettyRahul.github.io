@@ -756,6 +756,24 @@ export const judgeData = [
 
 export const judgeConference = [
   {
+    conferenceName: "2nd International Conference on Artificial Intelligence & Machine Vision ",
+    conferenceTopicName:
+      "AI-Enhanced Data Encryption Techniques for Cloud StorageDownload",
+    conferenceSortName: "AIMV 2025",
+    event: "AIMV 2025",
+    date: "2025",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName: "2nd International Conference on Artificial Intelligence & Machine Vision ",
+    conferenceTopicName:
+      "5G and AI-Powered Cloud Security: Safeguarding Ultra-Low Latency NetworksDownload",
+    conferenceSortName: "AIMV 2025",
+    event: "AIMV 2025",
+    date: "2025",
+    role: "Conference Peer Review",
+  },
+  {
     conferenceName: "3rd Doctoral Symposium on Human Centered Computing",
     conferenceTopicName:
       "Designing Industry-Specific Modular Solutions Using Salesforce OmniStudio for Accelerated Digital Transformation",
@@ -1573,6 +1591,18 @@ export const judgeGithub = [
     filesLink: "https://github.com/FakhirK90/ai-projects/pull/28/files",
     mergeDate: "24 OCT 2024",
     date: "2024",
+  },
+  {
+    repoName: "horilla-opensource_Projects",
+    issue: "Update Telecom_Customer_Churn.py",
+    conversationLink:
+      "https://github.com/horilla-opensource/horilla/pull/701",
+    commitsLink:
+      "https://github.com/horilla-opensource/horilla/pull/701/commits",
+    filesLink:
+      "https://github.com/horilla-opensource/horilla/pull/701/files",
+    mergeDate: "22 APR 2025",
+    date: "2025",
   },
 ];
 
