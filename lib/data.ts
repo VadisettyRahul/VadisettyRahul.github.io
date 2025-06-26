@@ -43,7 +43,7 @@ export const articles = [
       "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
   },
   {
-    image: "/logo24.svg",
+    image: "/logon24.webp",
     conferenceName:
       "International Conference on Advanced Data Analytics and Computing (ICADAC) 2025",
     shortName: "ICADAC 2025",
@@ -557,6 +557,15 @@ export const patents = [
     items: [
       {
         name: "Artificial Intelligence and Machine Learning System for Risk Assessment and Early Prediction of Lung and Heart Cancer",
+      },
+    ],
+  },
+  {
+    category: "UK Patents",
+    year: "2025",
+    items: [
+      {
+        name: "Application Number : 5439615 - AI driven cloud computing device",
       },
     ],
   },
@@ -1717,14 +1726,14 @@ export const keyNoteData = [
     mediaLink:
       "https://nyweekly.com/tech/rahul-vadisetty-and-anand-polamarasetti-smart-city-development",
   },
-  {
-    image: "/esp.png",
-    conferenceName: "ICICCS- 2024",
-    publisher: "Eternal Scientific Publication",
-    shortName: "Eternal Scientific Publication",
-    date: "2024",
-    link: "https://www.espjournals.org/",
-    mediaLink:
-      "https://www.espjournals.org/International_Conference_ICICCS.php",
-  },
+  // {
+  //   image: "/esp.png",
+  //   conferenceName: "ICICCS- 2024",
+  //   publisher: "Eternal Scientific Publication",
+  //   shortName: "Eternal Scientific Publication",
+  //   date: "2024",
+  //   link: "https://www.espjournals.org/",
+  //   mediaLink:
+  //     "https://www.espjournals.org/International_Conference_ICICCS.php",
+  // },
 ];
