@@ -43,7 +43,7 @@ export const articles = [
       "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
   },
   {
-    image: "/DNA.svg",
+    image: "/logo24.svg",
     conferenceName:
       "International Conference on Advanced Data Analytics and Computing (ICADAC) 2025",
     shortName: "ICADAC 2025",
@@ -51,7 +51,7 @@ export const articles = [
     date: "February 28 and March 1,2025",
     link: "https://www.icadac.in/",
     mediaLink:
-      "https://www.dnaindia.com/brand-desk/report-two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity-3146239",
+      "https://news24online.com/information/two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity/583733/",
   },
   {
     image: "/khaleej-times.svg",
@@ -534,6 +534,11 @@ export const patentExhibition: {
   eventDate: string;
 }[] = [
   {
+    exhibitionName: "The Empire State Rare Book and Print Fair",
+    exhibitionLink: "https://finefairs.com/new-york%2C-ny",
+    eventDate: "26-28 September 2025",
+  },
+  {
     exhibitionName: "The Capital Rare Book Fair",
     exhibitionLink: "https://finefairs.com/capital-rare-book-fair",
     eventDate: "2-4 May 2025",
@@ -938,293 +943,293 @@ export const judgeConference = [
     date: "2025",
     role: "Conference Peer Review",
   },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Survey on Information Security and Quantum Cryptography",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Integrating Al for Enhanced Battery Lifespan and Efficiency in Electric Vehicles",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "The Role of Artificial Intelligence and Machine Learning in Autonomous Vehicle Diagnostics and Control",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Data Science and Regulatory Affairs: Navigating the Complex Landscape of Drug Approval Processes",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Smart Semiconductor Wafer Inspection Systems Integrating Al for Increased Efficiency",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Global Parts Management through Data and AI Leveraging Structured and Unstructured Data",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Jenkins-The Leading Automation Server for Continuous Integration and Continuous Delivery",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName: "Simulation of Obstacle Avoidance Robots",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "The Future of Al in Big Data: Cloud Platforms are Evolving to Support Machine Learning and Analytics",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Real-Time Adaptation: Change Data Capture in Modern Computer Architecture",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "YOL-SFV2: An Effective Deep Learning Technique to Detect and Classify the Human Face Action in Thermal Images",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Securing the Edge: A Comprehensive Review of Adaptive Video Streaming Security Mechanisms in Decentralized Environments",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Al-Driven Business Intelligence: Unlocking the Future of Decision-Making",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "A Systematic Review of Artificial Intelligence and Cyber Security in Higher Education Space",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
-    conferenceTopicName:
-      "Building Robust Al Systems in Finance: The Indispensable Role of Data Engineering and Data Quality",
-    conferenceSortName: "ICICCS-2024",
-    event: "ICICCS-2024",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Application Development with Agile and Django-React Framework: A Case Study on Reliability Testing with Bus Ticketing System",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Unsteady Hydromagnetic Fluid Flow along an Inclined Plane with Heat and Mass Transfer under the Effect of Thermal Radiation",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Automated Behaviour Model Generation from Natural Language Requirements Specification",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName: "",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "MONITORING OF TRAFFIC USING UNMANNED AERIAL VEHICLE IN MALAYSIA LANDSCAPE PERSPECTIVE",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "TEST CASE SELECTION USING MUTATIONS ANALYSIS FOR TEST CASE EFFECTIVENESS",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Toward IoT Based Pollution Detection System for Indoor and Outdoor Environment",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "An Effective Method for Software Development Effort Estimation for Complex Project Management",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "An Effective Method for Software Development Effort Estimation for Complex Project Management",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Functional Requirements Management in Virtual Team Environment",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Content-Based Venue Recommender Approach for Publication",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName: "CMMI Software Evolution and Its Role in Pakistan",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "CVehicle Recognition using Multi-level DeepLearning Models",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
-  {
-    conferenceName:
-      "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
-    conferenceTopicName:
-      "Big Data Analysis of Contagious Diseases Using AI-based Surveillance System",
-    conferenceSortName: "ICCSIS 2025",
-    event: "ICCSIS 2025",
-    date: "2024",
-    role: "Conference Peer Review",
-  },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Survey on Information Security and Quantum Cryptography",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Integrating Al for Enhanced Battery Lifespan and Efficiency in Electric Vehicles",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "The Role of Artificial Intelligence and Machine Learning in Autonomous Vehicle Diagnostics and Control",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Data Science and Regulatory Affairs: Navigating the Complex Landscape of Drug Approval Processes",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Smart Semiconductor Wafer Inspection Systems Integrating Al for Increased Efficiency",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Global Parts Management through Data and AI Leveraging Structured and Unstructured Data",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Jenkins-The Leading Automation Server for Continuous Integration and Continuous Delivery",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName: "Simulation of Obstacle Avoidance Robots",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "The Future of Al in Big Data: Cloud Platforms are Evolving to Support Machine Learning and Analytics",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Real-Time Adaptation: Change Data Capture in Modern Computer Architecture",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "YOL-SFV2: An Effective Deep Learning Technique to Detect and Classify the Human Face Action in Thermal Images",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Securing the Edge: A Comprehensive Review of Adaptive Video Streaming Security Mechanisms in Decentralized Environments",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Al-Driven Business Intelligence: Unlocking the Future of Decision-Making",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "A Systematic Review of Artificial Intelligence and Cyber Security in Higher Education Space",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "ESP JOURNAL OF ENGINEERING & TECHNOLOGY ADVANCEMENTS (ESP-JETA)",
+  //   conferenceTopicName:
+  //     "Building Robust Al Systems in Finance: The Indispensable Role of Data Engineering and Data Quality",
+  //   conferenceSortName: "ICICCS-2024",
+  //   event: "ICICCS-2024",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Application Development with Agile and Django-React Framework: A Case Study on Reliability Testing with Bus Ticketing System",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Unsteady Hydromagnetic Fluid Flow along an Inclined Plane with Heat and Mass Transfer under the Effect of Thermal Radiation",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Automated Behaviour Model Generation from Natural Language Requirements Specification",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName: "",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "MONITORING OF TRAFFIC USING UNMANNED AERIAL VEHICLE IN MALAYSIA LANDSCAPE PERSPECTIVE",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "TEST CASE SELECTION USING MUTATIONS ANALYSIS FOR TEST CASE EFFECTIVENESS",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Toward IoT Based Pollution Detection System for Indoor and Outdoor Environment",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "An Effective Method for Software Development Effort Estimation for Complex Project Management",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "An Effective Method for Software Development Effort Estimation for Complex Project Management",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Functional Requirements Management in Virtual Team Environment",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Content-Based Venue Recommender Approach for Publication",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName: "CMMI Software Evolution and Its Role in Pakistan",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "CVehicle Recognition using Multi-level DeepLearning Models",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
+  // {
+  //   conferenceName:
+  //     "International Conference on Computer Science and Intelligent Systems (ICCSIS)",
+  //   conferenceTopicName:
+  //     "Big Data Analysis of Contagious Diseases Using AI-based Surveillance System",
+  //   conferenceSortName: "ICCSIS 2025",
+  //   event: "ICCSIS 2025",
+  //   date: "2024",
+  //   role: "Conference Peer Review",
+  // },
   {
     conferenceName:
       "Global Conference on Information Technologies and Communications",
@@ -1233,6 +1238,56 @@ export const judgeConference = [
     conferenceSortName: "GCITC 2024",
     event: "GCITC 2024",
     date: "2024",
+    role: "Conference Peer Review",
+  },
+   {
+    conferenceName:
+      "International conference on advancements in smart, secure and intelligent computing",
+    conferenceTopicName:
+      "DRL-based task scheduling scheme in vehicular cloud computing",
+    conferenceSortName: "ASSIC 2022",
+    event: "ASSIC 2022",
+    date: "2022",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International conference on advancements in smart, secure and intelligent computing",
+    conferenceTopicName:
+      "A cost-aware IoT application deployment approach in cloud",
+    conferenceSortName: "ASSIC 2022",
+    event: "ASSIC 2022",
+    date: "2022",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International conference on advancements in smart, secure and intelligent computing",
+    conferenceTopicName:
+      "Task Allocation in Containerized Cloud Computing Environment",
+    conferenceSortName: "ASSIC 2022",
+    event: "ASSIC 2022",
+    date: "2022",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International conference on advancements in smart, secure and intelligent computing",
+    conferenceTopicName:
+      "Title: Improvement of the IoT Computing Platform for water meter network",
+    conferenceSortName: "ASSIC 2022",
+    event: "ASSIC 2022",
+    date: "2022",
+    role: "Conference Peer Review",
+  },
+  {
+    conferenceName:
+      "International conference on advancements in smart, secure and intelligent computing",
+    conferenceTopicName:
+      "Dynamic cloud computing for improved llm execution in medical applications",
+    conferenceSortName: "ASSIC 2022",
+    event: "ASSIC 2022",
+    date: "2022",
     role: "Conference Peer Review",
   },
 ];
