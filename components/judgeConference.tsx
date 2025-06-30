@@ -44,6 +44,17 @@ export default function JudgeConference() {
           >
             All
           </button>
+           <button
+            type="button"
+            className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
+              selectedYear === "2024"
+                ? "bg-blue-800 text-white"
+                : "bg-gray-300 text-black"
+            }`}
+            onClick={() => setSelectedYear("2022")}
+          >
+            2022
+          </button>
           <button
             type="button"
             className={`inline-block px-6 py-3 rounded-lg text-sm font-medium transition duration-300 ${
