@@ -419,7 +419,7 @@ export const awards = [
     conferenceName:
       "Sixth International Conference on Data Analytics and Management (ICDAM-2025)",
     awardName: "Multidisciplinary Research Award",
-    image: "/Multidisciplinary Research Award.jpg",
+    image: "/Multidisciplinary Research Award.png",
     date: "13th-15th June 2025",
     publisher: "Springer",
     link: "https://icdam-conf.com/",
