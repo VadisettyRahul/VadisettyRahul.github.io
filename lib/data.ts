@@ -439,7 +439,7 @@ export const awards = [
   },
   {
     conferenceName:
-      "Hackathon",
+      "Hackathon (Washington State University)",
     awardName: "Hackathon Health GPT First Runner Up Award",
     image: "/1st_Runner_Up.png",
     date: "May 24th-25th 2025",
@@ -450,7 +450,7 @@ export const awards = [
   },
   {
     conferenceName:
-      "International Conference on Advancements in Smart, Secure And Intelligent Computing",
+      "International Conference on Advancements in Smart, Secure And Intelligent Computing (ASIC)",
     awardName: "Best Paper Award",
     image: "/best_paper.jpg",
     date: "May 16th - 18th 2025",
