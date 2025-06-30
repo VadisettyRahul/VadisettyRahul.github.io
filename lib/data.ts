@@ -88,7 +88,7 @@ export const articles = [
       "https://www.thehansindia.com/business/rahul-vadisetty-harnessing-ai-to-revolutionize-predictive-healthcare-932304",
   },
   {
-    image: "/london insider.png",
+    image: "/yahoofinance.png",
     conferenceName:
       "International Institute of Computer Science Professional Association (IICSPA)",
     shortName: "IICSPA 2024",
@@ -96,7 +96,7 @@ export const articles = [
     date: "September 13, 2024",
     link: "http://iicspa.org",
     mediaLink:
-      "https://londoninsider.co.uk/iicspa-announces-fourteen-fellows-for-2024/",
+      "https://finance.yahoo.com/news/iicspa-welcomes-fourteen-fellows-2024-121500123.html?guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAMlqTvfWyl9C420oH4OefEA22ARdjq3SpQKbg5t8S24xBe72RgyjBu0D41CzJZqw88eihmnF6CVfwPdSyQGCJUbuDigTWoohej2bprwTJuJ6uc380MDrCZVkBhfIa2HbO_1dto3mmSKLAYvLGNuNUCecZgXQeuIU3QfpomVYqF1p&guccounter=2",
   },
   {
     image: "/logon24.webp",
@@ -133,6 +133,12 @@ export const articles = [
 ];
 
 export const memberships = [
+  {
+    title: "Fine Book Fairs Society",
+    role: "AI Advisory Board Chair",
+    icon: FaUsersLine,
+    link: "https://finefairs.com/fbf-society",
+  },
   {
     title: "IPMA Fellow",
     role: "IPMA Fellow Membership.",
@@ -411,6 +417,39 @@ export const certifications = [
 export const awards = [
   {
     conferenceName:
+      "Sixth International Conference on Data Analytics and Management (ICDAM-2025)",
+    awardName: "Multidisciplinary Research Award",
+    image: "/Multidisciplinary Research Award.jpg",
+    date: "13th-15th June 2025",
+    publisher: "Springer",
+    link: "https://icdam-conf.com/",
+    mediaLink:
+      "https://icdam-conf.com/prev-uila",
+  },
+  {
+    conferenceName:
+      "Sixth International Conference on Data Analytics and Management (ICDAM-2025)",
+    awardName: "Best Paper Award",
+    image: "/best_paper.jpg",
+    date: "13th-15th June 2025",
+    publisher: "Springer",
+    link: "https://icdam-conf.com/",
+    mediaLink:
+      "https://icdam-conf.com/previous-conference",
+  },
+  {
+    conferenceName:
+      "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
+    awardName: "Hackathon Health GPT First Runner Up Award",
+    image: "/1st_Runner_Up.png",
+    date: "28th-29th March 2025",
+    publisher: "Springer",
+    link: "https://wust-hackathon.org/awards/",
+    mediaLink:
+      "https://wust-hackathon.org/awards/",
+  },
+  {
+    conferenceName:
       "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
     awardName: "Best Paper Award",
     image: "/best_paper.jpg",
@@ -437,7 +476,7 @@ export const awards = [
     publisher: "Taylor and Francis",
     link: "https://www.icadac.in/",
     mediaLink:
-      "https://www.dnaindia.com/brand-desk/report-two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity-3146239",
+      "https://news24online.com/information/two-ai-researchers-win-prestigious-award-for-advancing-cybersecurity/583733/",
   },
   {
     conferenceName: "ICCSIS 2025",
