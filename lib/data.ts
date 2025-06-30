@@ -420,7 +420,7 @@ export const awards = [
       "Sixth International Conference on Data Analytics and Management (ICDAM-2025)",
     awardName: "Multidisciplinary Research Award",
     image: "/Multidisciplinary Research Award.png",
-    date: "13th-15th June 2025",
+    date: "June 13th-15th 2025",
     publisher: "Springer",
     link: "https://icdam-conf.com/",
     mediaLink:
@@ -431,7 +431,7 @@ export const awards = [
       "Sixth International Conference on Data Analytics and Management (ICDAM-2025)",
     awardName: "Best Paper Award",
     image: "/best_paper.jpg",
-    date: "13th-15th June 2025",
+    date: "June 13th-15th 2025",
     publisher: "Springer",
     link: "https://icdam-conf.com/",
     mediaLink:
@@ -439,14 +439,25 @@ export const awards = [
   },
   {
     conferenceName:
-      "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
+      "Hackathon",
     awardName: "Hackathon Health GPT First Runner Up Award",
     image: "/1st_Runner_Up.png",
-    date: "28th-29th March 2025",
-    publisher: "Springer",
+    date: "May 24th-25th 2025",
+    publisher: "Washington State University",
     link: "https://wust-hackathon.org/awards/",
     mediaLink:
       "https://wust-hackathon.org/awards/",
+  },
+  {
+    conferenceName:
+      "International Conference on Advancements in Smart, Secure And Intelligent Computing",
+    awardName: "Best Paper Award",
+    image: "/best_paper.jpg",
+    date: "May 16th - 18th 2025",
+    publisher: "IEEE",
+    link: "https://assic.info/",
+    mediaLink:
+      "https://assic.info/",
   },
   {
     conferenceName:
