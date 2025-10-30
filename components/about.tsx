@@ -21,11 +21,10 @@ const About = () => {
           Rahul Vadisetty
         </h1>
         <p className="text-base font-semibold dark:text-white text-[#212529] mt-10 leading-8 font-larken border-l-4 border-yellow pl-6">
-          Rahul Vadisetty is an experienced Sr. Software Engineer specializing
-          in AI/ML, cloud platforms, security, and automation. Holding multiple
-          certifications across AWS, Azure, and GCP, he excels in building
-          secure, scalable cloud solutions, operationalizing AI models, and
-          ensuring system reliability through advanced SRE and MLOps practices.
+          Rahul Vadisetty is a Cloud Infrastructure Architect at the Gemological Institute of America (GIA). He earned his Master’s degree in Electrical Engineering from Wayne State University (2015) and a Bachelor’s degree in Electronics and Communication Engineering (ECE) from JNTU Kakinada.
+          Rahul has made significant contributions in the fields of Cloud Computing and Artificial Intelligence (AI), authoring or contributing to 69 publications, presentations, lectures, and courses. He has received multiple Best Paper Awards and holds active memberships as a Senior Member of IEEE, ACM, BCS, and Sigma Xi.
+          His research focuses on AI-driven cybersecurity, intelligent cloud infrastructure, and adaptive data protection systems. His architectural designs integrate AI-powered intelligence that continuously monitors, detects, and mitigates cyber threats across cloud, on-premises, and mobile environments. 
+          By leveraging machine learning for adaptive threat detection and automated data protection, his frameworks enhance the integrity, confidentiality, and availability of information systems—ensuring compliance, scalability, and resilience against evolving cyber risks.
         </p>
       </div>
 

@@ -31,16 +31,27 @@ export const education = [
 ];
 
 export const articles = [
+  // {
+  //   image: "/msn.svg",
+  //   conferenceName:
+  //     "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
+  //   shortName: "DoSCI 2025",
+  //   publisher: "Springer",
+  //   date: "28th-29th March 2025",
+  //   link: "https://conference.curtindubai.ac.ae/icisas-2025/",
+  //   mediaLink:
+  //     "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
+  // },
   {
-    image: "/msn.svg",
+    image: "/forbes-logo.jpg",
     conferenceName:
-      "6th Doctoral Symposium on Computational Intelligence (DoSCI 2025)",
-    shortName: "DoSCI 2025",
-    publisher: "Springer",
-    date: "28th-29th March 2025",
-    link: "https://conference.curtindubai.ac.ae/icisas-2025/",
+      "SCRS IDEATHON 2025",
+    shortName: "IDEATHON 2025",
+    publisher: "SCRS",
+    date: "March 2025",
+    link: "https://scrs.in/conference/ideathon2025",
     mediaLink:
-      "https://www.msn.com/en-us/news/technology/dosci-2025-international-conference-doctoral-symposium-on-computational-intelligence/ar-AA1CPxYS",
+      "https://forbes.ge/en/visionaries-shaping-the-future-profiles-of-the-pioneers-behind-ai-breakthroughs/",
   },
   {
     image: "/logon24.webp",
@@ -109,16 +120,16 @@ export const articles = [
     mediaLink:
       "https://news24online.com/information/ai-innovation-in-healthcare-vadisetty-polamarasetti-win-best-paper-award-at-springer-dacs-2024/502405/",
   },
-  {
-    image: "/Outlook.svg",
-    shortName: "Ayushman Hospital",
-    conferenceName: "Ayushman Hospital",
-    publisher: "Ayushman Hospital",
-    date: "October 17th, 2024",
-    link: "https://www.acoit.in/contact.php",
-    mediaLink:
-      "https://www.outlookindia.com/healthcare-spotlight/dr-swami-karri-ceo-aayushman-hospital-praises-mr-rahul-vadisetty-and-mr-anand-polamarasettis-groundbreaking-research-on-ai-based-lung-segmentation/",
-  },
+  // {
+  //   image: "/Outlook.svg",
+  //   shortName: "Ayushman Hospital",
+  //   conferenceName: "Ayushman Hospital",
+  //   publisher: "Ayushman Hospital",
+  //   date: "October 17th, 2024",
+  //   link: "https://www.acoit.in/contact.php",
+  //   mediaLink:
+  //     "https://www.outlookindia.com/healthcare-spotlight/dr-swami-karri-ceo-aayushman-hospital-praises-mr-rahul-vadisetty-and-mr-anand-polamarasettis-groundbreaking-research-on-ai-based-lung-segmentation/",
+  // },
   {
     image: "/freePress.avif",
     conferenceName:
@@ -234,9 +245,14 @@ export const memberships = [
 
 export const experiences = [
   {
+    role: "Cloud Infrastructure Architect",
+    company: "GIA · Full-time",
+    duration: "July 2025 - Present · 5 months",
+  },
+  {
     role: "Sr software engineer",
     company: "U.S. Bank · Full-time",
-    duration: "Mar 2023 - Present · 2 yrs 1 months",
+    duration: "Mar 2023 - May 2025 · 2 yrs 3 months",
   },
   {
     role: "Sr Devops Engineer",
@@ -547,26 +563,26 @@ export const awards = [
     mediaLink:
       "https://www.freepressjournal.in/latest-news/revolutionizing-cloud-data-sharing-rahul-vadisetty-and-anand-polamarasetti-wins-best-paper-award-at-ieee-ictbig-2024-conference/",
   },
-  {
-    image: "/claroawards_logo.jpeg",
-    conferenceName: "Silver Awards AI",
-    awardName:
-      "Innovation and excellence in the field of Artificial Intelligence",
-    date: "Nov 20, 2024",
-    publisher: "Claro Awards",
-    link: "https://claroawards.com/winners.html",
-    mediaLink:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7265065643052355584/",
-  },
-  {
-    image: "/iaia-big.png",
-    conferenceName: "IAIA AI Award",
-    awardName: "IAIA AI Award",
-    date: "2023",
-    publisher: "Taylor and Francis",
-    link: "https://www.iaiawards.com/",
-    mediaLink: "https://www.iaiawards.com/team-1/rahul-vadisetty/",
-  },
+  // {
+  //   image: "/claroawards_logo.jpeg",
+  //   conferenceName: "Silver Awards AI",
+  //   awardName:
+  //     "Innovation and excellence in the field of Artificial Intelligence",
+  //   date: "Nov 20, 2024",
+  //   publisher: "Claro Awards",
+  //   link: "https://claroawards.com/winners.html",
+  //   mediaLink:
+  //     "https://www.linkedin.com/feed/update/urn:li:activity:7265065643052355584/",
+  // },
+  // {
+  //   image: "/iaia-big.png",
+  //   conferenceName: "IAIA AI Award",
+  //   awardName: "IAIA AI Award",
+  //   date: "2023",
+  //   publisher: "Taylor and Francis",
+  //   link: "https://www.iaiawards.com/",
+  //   mediaLink: "https://www.iaiawards.com/team-1/rahul-vadisetty/",
+  // },
 ];
 export const workspaceList = [
   {
@@ -685,12 +701,12 @@ export const books = [
     publisher: "Redshine Publications Sweden",
     link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=zLRrw_wAAAAJ&authuser=1&citation_for_view=zLRrw_wAAAAJ:kz9GbA2Ns4gC",
   },
-  {
-    title:
-      "Contemporary Issues in Science, Computer Science, Engineering and Technology - Editor",
-    publisher: "Redshine Publications Sweden",
-    link: "https://redshine.co.in/product/9789173080927/?srsltid=AfmBOoqalvWzLZrAugTwD3mfY5wT4Rb9xEiKs5vrc9TvmRJebbjg6fcL",
-  },
+  // {
+  //   title:
+  //     "Contemporary Issues in Science, Computer Science, Engineering and Technology - Editor",
+  //   publisher: "Redshine Publications Sweden",
+  //   link: "https://redshine.co.in/product/9789173080927/?srsltid=AfmBOoqalvWzLZrAugTwD3mfY5wT4Rb9xEiKs5vrc9TvmRJebbjg6fcL",
+  // },
   {
     title:
       "Introduction and Importance of Artificial Intelligence (AI) - Editor",
@@ -1773,8 +1789,8 @@ export const keyNoteData = [
     shortName: "IEEE CN Smart Cities Austin Texas USA",
     date: "2024",
     link: "https://events.vtools.ieee.org/m/430011/",
-    mediaLink:
-      "https://nyweekly.com/tech/rahul-vadisetty-and-anand-polamarasetti-smart-city-development",
+    mediaLink: ""
+      //"https://nyweekly.com/tech/rahul-vadisetty-and-anand-polamarasetti-smart-city-development",
   },
   // {
   //   image: "/esp.png",
