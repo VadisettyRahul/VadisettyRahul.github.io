@@ -43,7 +43,7 @@ const Sidebar = () => {
             Rahul Vadisetty
           </p>
           <p className="text-base dark:text-[#e9ecef] text-gray-600 font-light opacity-50">
-            Experienced Sr Software Enginner (AI/ML Specialist)
+            Experienced Cloud Infrastructure Architect (AI/ML Specialist)
           </p>
         </div>
         <button onClick={toggleSidebar} className="text-2xl">
