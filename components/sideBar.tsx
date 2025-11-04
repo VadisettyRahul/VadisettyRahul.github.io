@@ -72,7 +72,7 @@ const Sidebar = () => {
           />
           <h2 className="mt-3 text-2xl font-semibold">Rahul Vadisetty</h2>
           <p className="text-base text-black dark:text-white font-extrabold opacity-80">
-            Experienced Sr Software Enginner (AI/ML Specialist)
+            Experienced Cloud Infrastructure Architect (AI/ML Specialist)
           </p>
         </div>
 
